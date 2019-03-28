@@ -1,0 +1,152 @@
+{
+  "common_use": " Skin Condition, Erythema Multiforme, Multiple Sclerosis, Obstructive Pulmonary Disease, Rheumatoid Arthritis, Thyroid Gland Inflammation, Allergic Reaction caused by a Drug,\" Muscle Pain and Stiffness in Shoulder, Neck and Pelvis\", Inflammation &amp; Obstruction of Smallest Breathing Passages, Sarcoidosis, Decreased Platelets due to a Disease State or a Drug, Contact Dermatitis, Vasculitis, Ulcerated Colon, Asthma, Inflammation of the Artery in the Temple Area, Cluster Headache Prevention, Rheumatic Fever, Psoriasis associated with Arthritis, Inflammation of Several Cartilages of the Body, Chronic Inflammatory Skin Disease Marked by Blisters, Joint Disease which may include Attacks of Acute Arthritis, Inflammation of Skin and Muscles All Over the Body, Crohn's Disease, Inflammatory Bowel Disease,\" Disease with Enlarged Lymph Tissue, Spleen and Liver\", Inflammation of the Joints due to Gout, A Hereditary Progressive Anemia of Unknown Cause, Giant Hives, Presence of Polyps in the Nose, Atopic Dermatitis, Prevent of Transplant Rejection, Systemic Lupus Erythematosus, Inflammation of the Nose due to an Allergy, Disease in which Body has Immune Response Against Itself, Muscle or Bone Disorder, Blistering Skin Diseases, Inflammation of the Heart, Addison's Disease, Inflammation of the Elbow and Surrounding Tissue, Low Platelet Count and Bleeding from Immune Response, Bell's Palsy Paralysis of One Side of the Face, Cancer of Prostate that has Spread to Other Part of Body, Allergic Reaction causing Serum Sickness, Inflammation of the Covering of the Heart or Pericardium, Infiltration of White Blood Cells into the Lungs, Rheumatic Disease causing Pain &amp; Stiffness in Backbone, Anemia From Too Few Young Red Blood Cells, Cutaneous T-Cell Lymphoma, Destruction of Red Blood Cells by Body's Own Antibodies, Decreased Function of the Adrenal Gland, Psoriasis, Nephrotic Syndrome",
+  "drug_name": "Prednisone oral",
+  "sentence": [
+    {
+      "concept": [
+        {
+          "cui": "C0028084",
+          "distance": 0.2,
+          "location": "30/9",
+          "min distance": true,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Nightmares",
+          "semantic type": "sosy",
+          "trigger": "nightmare"
+        }
+      ],
+      "prediction": [
+        {
+          "average": 0.012952174522680913,
+          "model_ada": 0.0014035839564730005,
+          "model_clstm_fcn": 0.013451939448714256,
+          "model_cnn_fcn": 0.0001723921304801479,
+          "model_rf": 0.026,
+          "model_svm": 0.023732957077737156
+        }
+      ],
+      "sentiment": -0.5,
+      "text": "This Medication is becoming a nightmare !!"
+    },
+    {
+      "concept": [
+        {
+          "cui": "C0013595",
+          "distance": 0.1,
+          "location": "66/6",
+          "min distance": true,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Eczema",
+          "semantic type": "dsyn",
+          "trigger": "eczema"
+        },
+        {
+          "cui": "C3830105",
+          "distance": 1,
+          "location": "54/8",
+          "min distance": false,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Flare-up",
+          "semantic type": "fndg",
+          "trigger": "flare up"
+        }
+      ],
+      "prediction": [
+        {
+          "average": 0.3282208086105544,
+          "model_ada": 0.014821999615864997,
+          "model_clstm_fcn": 0.9358804225921631,
+          "model_cnn_fcn": 0.001226077671162784,
+          "model_rf": 0.598,
+          "model_svm": 0.09117554317358134
+        }
+      ],
+      "sentiment": 0.5,
+      "text": "Its been 10 days since I took it to treat a full body flare up of eczema ."
+    },
+    {
+      "concept": [
+        {
+          "cui": "C0030252",
+          "distance": 0.2,
+          "location": "59/12",
+          "min distance": true,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Palpitations",
+          "semantic type": "fndg",
+          "trigger": "palpitations"
+        }
+      ],
+      "prediction": [
+        {
+          "average": 0.016777170873469457,
+          "model_ada": 0.012841097630585769,
+          "model_clstm_fcn": 0.01651155948638916,
+          "model_cnn_fcn": 0.00022696718224324286,
+          "model_rf": 0.026,
+          "model_svm": 0.02830623006812911
+        }
+      ],
+      "sentiment": -0.5,
+      "text": "And now I 'm menstruating 1 week early and am having heart palpitations that are so annoying and borderline scary ."
+    },
+    {
+      "sentiment": 0.5,
+      "text": "Waiting to speak to Doc in the a.m. ... I thought this was going to be simple ."
+    },
+    {
+      "sentiment": 0,
+      "text": "."
+    },
+    {
+      "sentiment": 0,
+      "text": "Guess not ."
+    },
+    {
+      "sentiment": 0,
+      "text": "."
+    },
+    {
+      "concept": [
+        {
+          "cui": "C0683278",
+          "distance": 1,
+          "location": "37/9",
+          "min distance": false,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Mental Suffering",
+          "semantic type": "mobd",
+          "trigger": "suffering"
+        },
+        {
+          "cui": "C0030252",
+          "distance": 0.2,
+          "location": "62/12",
+          "min distance": true,
+          "negation": "0",
+          "pos": "noun",
+          "preferred term": "Palpitations",
+          "semantic type": "fndg",
+          "trigger": "palpitations"
+        }
+      ],
+      "prediction": [
+        {
+          "average": 0.016750739219937257,
+          "model_ada": 0.012841097630585769,
+          "model_clstm_fcn": 0.01639503426849842,
+          "model_cnn_fcn": 0.0002113341324729845,
+          "model_rf": 0.026,
+          "model_svm": 0.02830623006812911
+        }
+      ],
+      "sentiment": -0.5,
+      "text": "After reading someones comment about suffering with the heart palpitations for over a year after taking prednisone I 'm praying this does n't happened to me and require additional medications !!!"
+    }
+  ]
+}
